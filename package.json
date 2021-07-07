@@ -1,0 +1,26 @@
+{
+  "name": "las",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/styles225/launchschool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/styles225/launchschool/issues"
+  },
+  "homepage": "https://github.com/styles225/launchschool#readme",
+  "description": "",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.30.0",
+    "eslint-cli": "^1.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}

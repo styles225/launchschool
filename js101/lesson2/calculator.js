@@ -27,7 +27,6 @@ function performOperation(output) {
 }
 
 
-
 say(`Welcome to the calculator!`);
 
 let number1 = getOperand('first');
@@ -35,26 +34,26 @@ let number2 = getOperand('second');
 
 let operator = getOperator();
 
-switch(operator) {
+switch (operator) {
 
   case '1':
     performOperation( number1 + number2 );
-  break;
-  
+    break;
+
   case '2':
     performOperation( number1 - number2 );
-  break;
-  
+    break;
+
   case '3':
     performOperation( number1 * number2 );
-  break;
-  
+    break;
+
   case '4':
     performOperation( number1 / number2 );
-  break;
+    break;
 
   default:
     operator = getOperator();
-  break;
+    break;
 
 }
